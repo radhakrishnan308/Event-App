@@ -117,6 +117,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
     func showAlert(title: String, message: String) {
         let alert = UIAlertController(title: title, message: message, preferredStyle: .alert)
         alert.addAction(UIAlertAction(title: "Ok", style: .destructive , handler:nil))
+        
+        //To get to window
         if (UIApplication.shared.windows.first?.isKeyWindow) != nil{
             UIApplication.shared.windows.first?.rootViewController?.present(alert, animated: true, completion: nil)
         }

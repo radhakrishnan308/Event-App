@@ -41,7 +41,7 @@ class ViewController: UIViewController {
 
         cleverTapAdditionalInstance.recordEvent(eventTypeTextField.text!, withProps: props)
 
-        
+        //Push Profile
         let profile: Dictionary<String, String> = [
             //Update pre-defined profile properties
             "Name": "Radhakrishnan",
