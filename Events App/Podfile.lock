@@ -1,0 +1,22 @@
+PODS:
+  - CleverTap-iOS-SDK (3.8.0):
+    - SDWebImage (~> 5.1)
+  - SDWebImage (5.5.2):
+    - SDWebImage/Core (= 5.5.2)
+  - SDWebImage/Core (5.5.2)
+
+DEPENDENCIES:
+  - CleverTap-iOS-SDK
+
+SPEC REPOS:
+  trunk:
+    - CleverTap-iOS-SDK
+    - SDWebImage
+
+SPEC CHECKSUMS:
+  CleverTap-iOS-SDK: 1513db126149ca523b25fdcf3121a4204709c733
+  SDWebImage: 4d5c027c935438f341ed33dbac53ff9f479922ca
+
+PODFILE CHECKSUM: fb2f7b9cc24fb4f79a33b4b4fc32268ef159011f
+
+COCOAPODS: 1.8.4
