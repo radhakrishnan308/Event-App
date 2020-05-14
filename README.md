@@ -9,6 +9,11 @@ Platform
 * Xcode 11.3.1
 * iOS 13+
 
+Setup
+-----
+
+* Under Constants.swift, Input the Account ID and Token
+
 
 Features
 --------
