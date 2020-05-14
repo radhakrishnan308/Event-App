@@ -9,6 +9,6 @@
 import UIKit
 
 struct Constants {
-    static let kAccountID = "445-8WK-985Z"
-    static let kAccountToken = "30b-544"
+    static let kAccountID = "$ACCOUNT_ID"
+    static let kAccountToken = "$ACCOUNT_TOKEN"
 }
