@@ -18,7 +18,7 @@ Setup
 Features
 --------
 
-* Build with regular Apple MVC pattern
+* Built with regular Apple MVC pattern
 * Single View Controller which will enable us to send events using clevertap iOS SDK
 * Ablity to Opt for Push notification and to receive push notification promotions
 
