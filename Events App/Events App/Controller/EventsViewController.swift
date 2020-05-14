@@ -9,7 +9,7 @@
 import UIKit
 import CleverTapSDK
 
-class ViewController: UIViewController {
+class EventsViewController: UIViewController {
     
     //IB Outlets
     @IBOutlet var productIDTypeTextField: UITextField!
@@ -18,7 +18,7 @@ class ViewController: UIViewController {
         
     //CleverTap Instance
     lazy var cleverTapAdditionalInstance: CleverTap = {
-        let ctConfig = CleverTapInstanceConfig.init(accountId: "445-8WK-985Z", accountToken: "30b-544")
+        let ctConfig = CleverTapInstanceConfig.init(accountId: Constants.kAccountID, accountToken: Constants.kAccountToken)
         return CleverTap.instance(with: ctConfig)
     }()
 

@@ -15,7 +15,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
     
     var cleverTapAdditionalInstance: CleverTap = {
         CleverTap.setDebugLevel(CleverTapLogLevel.debug.rawValue)
-        let ctConfig = CleverTapInstanceConfig.init(accountId: "445-8WK-985Z", accountToken: "30b-544")
+        let ctConfig = CleverTapInstanceConfig.init(accountId: Constants.kAccountID, accountToken: Constants.kAccountToken)
         CleverTap.setDebugLevel(CleverTapLogLevel.debug.rawValue)
         return CleverTap.instance(with: ctConfig)
     }()
